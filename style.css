@@ -1,0 +1,36 @@
+#employeeEntry p, .employee p {
+	width : 135px;
+	background-color: none;
+	text-align: center;
+	float: left;
+}
+
+.rev1 {
+	color: red;
+}
+
+.rev2 {
+	color: orange;
+}
+
+.rev3 {
+	color: blue;
+}
+
+.rev4 {
+	color: purple;
+}
+
+.rev5 {
+	color: green;
+}
+
+body {
+	width: 830px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topButton {
+	margin-top: 10px;
+}
