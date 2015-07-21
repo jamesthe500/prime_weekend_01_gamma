@@ -6,24 +6,37 @@
 	text-decoration: underline;
 }
 
+input {
+	width: 135px;
+}
+
+form {
+	/*width: 840px;*/
+	margin: 10px auto;
+}
+
 table {
-	width : 810px;
+	width : 840px;
 	margin: 35px auto;
 }
 
-td th {
-	width : 135px;
-}
-
-table tr:nth-child(even){
+table tr:nth-child(odd){
 	background-color: #99EBC2;
 	border-radius: 5px;
 
 }
-table tr:nth-child(odd){
+table tr:nth-child(even){
 	background-color: #FFFFEB;
 	border-radius: 5px;
 
+}
+
+th {
+	background-color: #FFFFEB;
+}
+
+td, th {
+	width : 135px;
 }
 
 .rev1 {
@@ -53,13 +66,9 @@ table tr:nth-child(odd){
 	text-align: center;
 }
 
-form {
-	width: 810px;
-	margin: 10px auto;
-}
 
 body {
-	width: 830px;
+	width: 840px;
 	margin: 10px auto;
 	background-color: #FFFAFF;
 }
@@ -82,4 +91,5 @@ span {
 
 .delEmployee {
 	float : right;
+	color: #990000;
 }
