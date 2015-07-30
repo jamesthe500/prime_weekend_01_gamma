@@ -68,10 +68,9 @@ $(".displaySalaries").html("Total salaries= " + totalSalaries);
 	$('#employeeChart').on('click', '.delEmployee', function(){
 		totalSalaries = totalSalaries - (parseInt($(this).closest("tr").find(".salary").html()));
 		$(".displaySalaries").html("Total salaries= " + totalSalaries);
-		//console.log($(this).closest("tr").html());
+		//makes a flat version of the employeeIndex array, then finds the index of the rowNumber set in the addToList, maths it, and splices it from the employeeIndex
 		var employeeIndexFlat = [].concat.apply([],employeeIndex);
 		employeeIndex.splice((employeeIndexFlat.indexOf($(this).data("rowNumber"))+1)/3-1, 1);
-		console.log(employeeIndex);
 		(this).closest("tr").remove();
 	})
 

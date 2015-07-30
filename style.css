@@ -1,21 +1,6 @@
-#employeeEntry p {
-	width : 135px;
-	background-color: none;
-	text-align: center;
-	float: left;
-	text-decoration: underline;
-}
 
-input {
-	width: 135px;
-}
 
-form {
-	/*width: 840px;*/
-	margin: 10px auto;
-}
-
-table {
+/*table {
 	width : 840px;
 	margin: 35px auto;
 }
@@ -38,6 +23,7 @@ th {
 td, th {
 	width : 135px;
 }
+*/
 
 .rev1 {
 	color: #990000;
@@ -68,9 +54,9 @@ td, th {
 
 
 body {
-	width: 840px;
+	color: #09504D;
 	margin: 10px auto;
-	background-color: #FFFAFF;
+	background-color: #A0DA6C;
 }
 
 .topButton, .displaySalaries {
@@ -83,10 +69,20 @@ span {
 	width: 400px;
 }
 
+.table-striped>tbody>tr:nth-child(odd)>td {
+   background-color: #A0DACD;
+ }
+
+ .table-striped>tbody>tr:nth-child(even)>td {
+   background-color: #38c1ab;
+ }
+
 .hiddenColumn{
-	background-color: #FFFAFF;
-	color: #FFFAFF;
+	background-color: #A0DA6C !important;
+	color: #A0DA6C;
 	width: 40px;
+	border-top-color: #A0DA6C !important;
+	border-bottom-color: #A0DA6C !important;
 }
 
 .delEmployee {
